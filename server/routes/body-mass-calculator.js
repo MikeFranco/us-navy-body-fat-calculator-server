@@ -18,13 +18,6 @@ router.get('/calculator', (req, res) => {
   const numericWaist = parseFloat(waist);
   const numericNeck = parseFloat(neck);
   const numericHip = parseFloat(hip);
-  console.log('%c⧭', 'color: #00b300', {
-    numericHeight,
-    numericWeight,
-    numericWaist,
-    numericNeck,
-    numericHip
-  });
 
   if (gender === 'female') {
     const divided = 495;
